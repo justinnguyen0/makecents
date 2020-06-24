@@ -1,0 +1,54 @@
+{
+  "name": "makecents",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.2.1",
+    "@testing-library/dom": "^7.16.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.3.4",
+    "axios": "^0.19.2",
+    "babel-plugin-import": "^1.13.0",
+    "chart.js": "^2.9.3",
+    "customize-cra": "^1.0.0",
+    "dayjs": "^1.8.28",
+    "firebase": "^7.15.3",
+    "google-auth-library": "^6.0.2",
+    "less": "^3.11.3",
+    "less-loader": "^6.1.1",
+    "react": "^16.13.1",
+    "react-app-rewired": "^2.1.6",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.13.1",
+    "react-firebase-hooks": "^2.2.0",
+    "react-plaid-link": "^2.3.0-alpha.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "typescript": "^3.9.5",
+    "webfontloader": "^1.6.28",
+    "webpack": "4.42.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

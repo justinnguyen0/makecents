@@ -1,0 +1,64 @@
+.select-org {
+  .logo {
+    width: 277px;
+    height: 49px;
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+  .select-org-form {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .select-org-title {
+      color: white;
+      font-family: "Montserrat";
+      font-size: 40px;
+    }
+    .search-bar {
+      margin-top: 20px;
+      width: 300px;
+    }
+    .all-orgs {
+      overflow: auto;
+      margin-bottom: 40px;
+      .org {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+
+        .org-logo-container {
+          margin-left: 200px;
+          margin-right: 50px;
+          .org-logo {
+            height: 120px;
+            width: 120px;
+          }
+        }
+        .org-description-container {
+          border: 2px solid #333;
+          border-radius: 15px;
+          margin-right: 200px;
+          padding: 5px;
+          transition: border 0.1s linear;
+          .org-title {
+            color: white;
+            font-family: "Montserrat";
+            font-size: 32px;
+          }
+          .org-description {
+            color: white;
+            font-family: "Montserrat";
+            font-size: 16px;
+          }
+
+          &:hover {
+            cursor: pointer;
+            border: 2px solid #777;
+            transition: border 0.1s linear;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "makecents",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "firebase": "^7.15.3",
+    "plaid": "^5.1.0",
+    "stripe": "^8.64.0"
+  }
+}
